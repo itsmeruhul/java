@@ -1,0 +1,39 @@
+>>Every line of code that runs in Java must be inside a class
+>>Java is case-sensitive: "MyClass" and "myclass" has different meaning.
+>>Single-line comments start with two forward slashes (//).>>
+>>Multi-line comments start with /* and ends with */
+>>String - stores text, such as "Hello". String values are surrounded by double quotes
+
+char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
+>>The variable as "final" or "constant", which means unchangeable and read-only
+>>Primitive data types - includes byte, short, int, long, float, double, boolean and char
+
+Non-primitive data types - such as String, Arrays and Classes
+A primitive data type specifies the size and type of variable values, and it has no additional methods
+>>Type casting is when you assign a value of one primitive data type to another type.
+
+Widening Casting (automatically) - converting a smaller type to a larger type size
+byte -> short -> char -> int -> long -> float -> double
+
+Narrowing Casting (manually) - converting a larger type to a smaller size type
+double -> float -> long -> int -> char -> short -> byte
+>>There are many string methods available, for example toUpperCase() and toLowerCase()
+>>The indexOf() method returns the index (the position) of the first occurrence of a specified text in a string
+>>You can also use the concat() method to concatenate two strings
+>>The Math.max(x,y) method can be used to find the highest value of x and y
+>>The Math.min(x,y) method can be used to find the lowest value of x and y
+>>The Math.abs(x) method returns the absolute (positive) value of x
+>>int randomNum = (int)(Math.random() * 101);  // 0 to 100
+>>There is also a short-hand if else, which is known as the ternary operator because it consists of three operands
+variable = (condition) ? expressionTrue :  expressionFalse
+>>The break and default keywords are optional
+>>do/while loop. The loop will always be executed at least once, even if the condition is false, because the code block is executed before the condition is tested
+>>There is also a "for-each" loop, which is used exclusively to loop through elements in an array
+
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+for (String i : cars) {
+  System.out.println(i);
+}
+>>Array
+int[] myNumbers =  {5, 6, 7};
+int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
